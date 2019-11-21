@@ -1,0 +1,17 @@
+<li  class="list-group-item">
+    <h4>Appareil : {{ appareilName }}</h4>
+    <h4>Status : {{"welcome "+ appareilstatus.toLowerCase() }}</h4>
+</li>
+
+<input  [(ngModel)]="color" value="myID"
+type="text"
+class="form-control"
+>
+ 
+<div [style.backgroundColor]="color">
+        Color
+</div>
+<input type="button" value="reset" (click)=" onclick()" />
+<p>{{test()}}</p>
+
+<a (click)="goToCv()" >Go to Cv</a>
