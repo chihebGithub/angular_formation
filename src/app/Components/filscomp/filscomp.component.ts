@@ -7,7 +7,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class FilscompComponent implements OnInit {
 
-  myFavoriteColor :string = 'test envoi fils vers pere ';
+  myFavoriteColor :string = 'red';
   @Output() valueChange=new EventEmitter();
   constructor() { }
 

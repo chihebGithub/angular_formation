@@ -1,8 +1,10 @@
 <div
+[style.background-color]="result"
+
+>Bonjour je suis dans la div parent
+<h2>my favorite color {{result}}</h2>
 
 
->Bonjour je suis dans la div parent</div>
-<h2> {{result}}</h2>
 
 
 
@@ -11,3 +13,4 @@
 (valueChange)="showValue($event)"
 
 ></app-filscomp>
+</div>
