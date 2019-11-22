@@ -13,9 +13,9 @@ export class PerecompComponent implements OnInit {
   ngOnInit() {
   }
   result:any='N/A';
-  showValue(value){
+  showValue = (value) =>{
   this.result=value;
 console.log(value)
-  }
+  };
 
 }

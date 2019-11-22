@@ -17,7 +17,6 @@ export class FilscompComponent implements OnInit {
     console.log(this.myFavoriteColor)
     this.valueChange.emit(
     this.myFavoriteColor
-   
     );
     }
 

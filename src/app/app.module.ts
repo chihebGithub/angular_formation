@@ -9,6 +9,10 @@ import { PereComponent } from './pere/pere.component';
 import { FilsComponent } from './fils/fils.component';
 import { FilscompComponent } from './Components/filscomp/filscomp.component';
 import { PerecompComponent } from './Components/perecomp/perecomp.component';
+import { CVComponent } from './Components/cv/cv.component';
+import { ItemComponent } from './Components/item/item.component';
+import { DetailComponent } from './Components/detail/detail.component';
+import { ListeComponent } from './Components/liste/liste.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { PerecompComponent } from './Components/perecomp/perecomp.component';
     PereComponent,
     FilsComponent,
     FilscompComponent,
-    PerecompComponent
+    PerecompComponent,
+    CVComponent,
+    ItemComponent,
+    DetailComponent,
+    ListeComponent
   ],
   imports: [
     BrowserModule,
